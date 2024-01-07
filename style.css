@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Alegreya+Sans:wght@500&family=Anton&display=swap');
+*{
+    font-family: 'Anton', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #4c0000; /* Dark red background color */
+    color: #fff; /* White text color */
+}
+
+header {
+    background-color: #6b0000; /* Darker red header color */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #8c0000; /* Darker background color for the navigation bar */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #a70000; /* Even darker red on hover */
+}
+.nigga {
+    padding-top: 30px;
+    max-width: 55%; /* Ensures the image doesn't exceed its container */
+    height: auto; /* Maintains the image's aspect ratio */
+border-radius:20px ;
+}
+p{
+    color: rgb(240, 238, 238);
+    font-family: 'ABeeZee', sans-serif;
+}
